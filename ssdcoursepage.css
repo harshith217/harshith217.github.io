@@ -1,0 +1,408 @@
+/* =================================
+   GENERAL PAGE
+   ================================= */
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f8fafc;
+    color: #1f2937;
+    line-height: 1.6;
+}
+
+
+/* =================================
+   COURSE HEADER
+   ================================= */
+
+#home {
+    color: #ffffff;
+    font-size: 38px;
+    margin: 0;
+    padding: 25px 10px 10px;
+}
+
+body > table:first-of-type {
+    width: 100% !important;
+    margin: 0 auto;
+    background-color: #2563eb;
+    border-collapse: collapse;
+}
+
+body > table:first-of-type td {
+    padding: 15px;
+}
+
+body > table:first-of-type h3 {
+    color: #dbeafe;
+    margin: 5px;
+    font-weight: normal;
+}
+
+
+/* =================================
+   NAVIGATION
+   ================================= */
+
+body > table:first-of-type tr:nth-child(2) {
+    background-color: #3b82f6;
+}
+
+body > table:first-of-type tr:nth-child(2) td {
+    text-align: center;
+    padding: 15px;
+}
+
+body > table:first-of-type tr:nth-child(2) a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 5px;
+    transition: 0.3s ease;
+}
+
+body > table:first-of-type tr:nth-child(2) a:hover {
+    color: #dbeafe;
+}
+
+
+/* =================================
+   GENERAL LINKS
+   ================================= */
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+
+/* =================================
+   MAIN CONTENT
+   ================================= */
+
+body > table:first-of-type tr:nth-child(n+3) td {
+    padding: 30px 8%;
+}
+
+body > table:first-of-type p {
+    font-size: 16px;
+    color: #1f2937;
+}
+
+body > table:first-of-type li {
+    color: #1f2937;
+}
+
+body > table:first-of-type li b {
+    color: #1e40af;
+}
+
+b[id] {
+    color: #1e40af;
+    font-size: 23px;
+}
+
+p b[id] {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+
+/* =================================
+   COURSE POLICY
+   ================================= */
+
+#cpolicy {
+    color: #1e40af;
+}
+
+body > table:first-of-type ul {
+    padding-left: 25px;
+}
+
+body > table:first-of-type li {
+    margin-bottom: 18px;
+}
+
+
+/* =================================
+   GRADING TABLE
+   ================================= */
+
+body > table:first-of-type table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: 25px auto;
+}
+
+body > table:first-of-type table th {
+    background-color: #60a5fa;
+    color: #ffffff;
+    padding: 12px;
+}
+
+body > table:first-of-type table td {
+    padding: 10px;
+    text-align: center;
+    color: #1f2937;
+    background-color: #ffffff;
+}
+
+body > table:first-of-type table tr:nth-child(even) td {
+    background-color: #eff6ff;
+}
+
+
+/* =================================
+   LECTURE / LAB / EXAM TABLES
+   ================================= */
+
+.tg {
+    width: 90% !important;
+    max-width: 1200px;
+    margin: 45px auto !important;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(37, 99, 235, 0.10);
+}
+
+
+/* Table section headings */
+
+.tg td[colspan="5"] {
+    background-color: #2563eb;
+    color: #ffffff;
+    padding: 18px;
+}
+
+.tg td[colspan="5"] b {
+    color: #ffffff;
+    font-size: 22px;
+}
+
+.tg td[colspan="5"] a {
+    color: #dbeafe;
+}
+
+
+/* Table headings */
+
+.tg th {
+    background-color: #60a5fa;
+    color: #ffffff;
+    padding: 14px 10px;
+    border: 1px solid #93c5fd;
+}
+
+
+/* Table cells */
+
+.tg td {
+    padding: 12px 10px;
+    border: 1px solid #dbeafe;
+    color: #1f2937;
+    background-color: #ffffff;
+}
+
+
+/* Alternating rows */
+
+.tg tr:nth-child(even) td {
+    background-color: #f8fbff;
+}
+
+
+/* Row hover */
+
+.tg tr:hover td {
+    background-color: #eff6ff;
+}
+
+
+/* Material links */
+
+.tg td a {
+    color: #2563eb;
+    font-weight: bold;
+}
+
+.tg td a:hover {
+    color: #1d4ed8;
+    text-decoration: underline;
+}
+
+
+/* =================================
+   LECTURE TABLE
+   ================================= */
+
+.tg-7btt {
+    text-align: center;
+    color: #ffffff;
+}
+
+.tg-c3ow {
+    text-align: center;
+    color: #1f2937;
+}
+
+
+/* =================================
+   LAB + EXAM TABLE
+   ================================= */
+
+.tg-bobw {
+    text-align: center;
+    color: #ffffff;
+}
+
+.tg-8d8j {
+    text-align: center;
+    color: #1f2937;
+}
+
+
+/* =================================
+   STAFF SECTION
+   ================================= */
+
+#staff {
+    color: #1e40af;
+}
+
+body > table:nth-last-of-type(2) {
+    width: 90% !important;
+    max-width: 1200px;
+    margin: 45px auto;
+    background-color: #ffffff;
+    box-shadow: 0 5px 20px rgba(37, 99, 235, 0.08);
+}
+
+body > table:nth-last-of-type(2) td {
+    padding: 15px 25px;
+    color: #1f2937;
+}
+
+
+/* =================================
+   FOOTER
+   ================================= */
+
+body > table:last-of-type {
+    width: 90% !important;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+body > table:last-of-type td {
+    padding: 10px;
+    color: #374151;
+}
+
+body > table:last-of-type font {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #475569;
+}
+
+#txt {
+    margin-top: 15px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+
+/* =================================
+   HORIZONTAL LINES
+   ================================= */
+
+hr {
+    border: 0;
+    border-top: 1px solid #dbeafe;
+    margin: 25px 0;
+}
+
+
+/* =================================
+   GO TO TOP
+   ================================= */
+
+a[href="#home"] {
+    color: #2563eb;
+    font-size: 14px;
+}
+
+
+/* =================================
+   MOBILE RESPONSIVENESS
+   ================================= */
+
+@media (max-width: 768px) {
+
+    #home {
+        font-size: 28px;
+    }
+
+    body > table:first-of-type tr:nth-child(2) td {
+        line-height: 2.2;
+    }
+
+    body > table:first-of-type tr:nth-child(2) a {
+        display: inline-block;
+        margin: 0 5px;
+    }
+
+    body > table:first-of-type tr:nth-child(n+3) td {
+        padding: 25px 5%;
+    }
+
+    .tg {
+        width: 95% !important;
+        font-size: 13px;
+    }
+
+    .tg th,
+    .tg td {
+        padding: 8px 6px;
+    }
+
+    body > table:first-of-type table {
+        width: 100%;
+    }
+}
+
+
+/* =================================
+   SMALL SCREENS
+   ================================= */
+
+@media (max-width: 500px) {
+
+    #home {
+        font-size: 23px;
+    }
+
+    body > table:first-of-type h3 {
+        font-size: 16px;
+    }
+
+    .tg {
+        font-size: 11px;
+    }
+
+    .tg th,
+    .tg td {
+        padding: 6px 4px;
+    }
+}
